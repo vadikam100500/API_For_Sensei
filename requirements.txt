@@ -1,0 +1,6 @@
+django==2.2.6
+djangorestframework
+django-filter
+pandas
+pillow
+requests
