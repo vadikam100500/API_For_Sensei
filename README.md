@@ -1,4 +1,30 @@
-# Техническое Задание
+# API_For_Sensei
+## Simple API on django by TOR of mentor.
+***
+## What I used
+
+> - django==2.2.6
+> - djangorestframework
+> - django_filters
+> - requests
+***
+## How to install
+
+```sh
+$ python3 -m venv 'name of virtual environment'
+$ venv 'name of virtual environment'/Scripts(or bin for linux)/activate
+$ pip install -r requirements.txt
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
+```
+***
+## Database
+
+```sh
+$ python3 manage.py database <Your url adress>
+```
+***
+# Task
 
 Dataset: https://gist.github.com/artrey/8d6a3f2d91cefb5e6343bedbc9ef8c79
 
@@ -33,20 +59,3 @@ api/v1/metrics/?group=country&show=earnings&o=-earnings
 ```bash
 api/v1/metrics/?group=country&group=shop&show=visitors
 ```
-
--------------
-Использовано
--------------
-
-> - django==2.2.6
-> - djangorestframework
-> - django_filters
-
-
--------------
-Получение базы данных
--------------
-
->- python3 manage.py database <Ваш url адрес> 
-
--------------
