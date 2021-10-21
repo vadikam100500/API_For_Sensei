@@ -1,13 +1,13 @@
 # API_For_Sensei
-## Simple API on django by TOR of mentor.
-***
+- Simple API on django by TOR of mentor.
+
 ## What I used
 
 > - django==2.2.6
 > - djangorestframework
 > - django_filters
 > - requests
-***
+
 ## How to install
 
 ```sh
@@ -17,13 +17,13 @@ $ pip install -r requirements.txt
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 ```
-***
+
 ## Database
 
 ```sh
 $ python3 manage.py database <Your url adress>
 ```
-***
+
 # Task
 
 Dataset: https://gist.github.com/artrey/8d6a3f2d91cefb5e6343bedbc9ef8c79
